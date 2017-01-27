@@ -34,13 +34,13 @@
 
   <script type="text/javascript">
     $(function () {
-      var url = window.location.search.match(/url=([^&]+)/);
+      /*var url = window.location.search.match(/url=([^&]+)/);
       if (url && url.length > 1) {
         url = decodeURIComponent(url[1]);
       } else {
         url = "swaggerTest.json";
-      }
-
+      }*/
+			var url = "https://raw.githubusercontent.com/JonathanMELIUS/EnsemblSwaggerAPI/master/swaggerTest.json"
       hljs.configure({
         highlightSizeThreshold: 5000
       });
